@@ -4,7 +4,7 @@ node {
   }
 
   stage('Build') {
-    sh 'docker image build -t peteleblond/demo-api-redis:latest .'
+    sh 'docker image build -t peteleblond/demo-api:latest .'
   }
 
   stage('Push') {
